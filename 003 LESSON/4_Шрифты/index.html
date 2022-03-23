@@ -1,0 +1,42 @@
+<!-- 
+font-family
+font-size (em от родителя, rem от html)  
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Относительная величина шрифта</title>
+  <style>
+    html{
+      font-size: 5px;
+    }
+    body{
+      font-size: 14px;
+    }
+    .outer{
+      font-size: 18px;
+    }
+    .inner{
+      font-size: 1em;
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div class="outer">
+    Это элемент DIV
+    <p class="inner">
+      Это параграф вложенный в DIV-18
+    </p>
+  </div>
+
+  <p class="inner">
+    Это параграф вложенный в BODY-14
+  </p>
+
+  
+</body>
+</html>
