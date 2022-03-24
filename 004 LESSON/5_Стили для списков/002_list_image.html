@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        li {
+            /* Свойсто устанавливает адрес изображения, которое юудет применятся в качестве маркера к элементам списка. */
+            list-style: none;
+        }
+
+
+        li::before {
+            content: '';
+            width: 45px;
+            height: 36px;
+            display: inline-block;
+            background-image: url(https://raw.githubusercontent.com/SlavkoPekaric/Country-Flags-Responsive-CSS-Sprite/master/preview.png);
+            background-position: 146px 39px;
+        }
+
+        li:nth-child(2)::before {
+            background-position: 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>Apple</li>
+        <li>Microsoft</li>
+        <li>IBM</li>
+        <li>Oracle</li>
+    </ul>
+</body>
+
+</html>

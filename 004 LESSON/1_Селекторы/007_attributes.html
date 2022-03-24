@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+
+       
+         [attr]{
+             color: red
+         }
+        /* атрибут href начинаеться со значения http:// */
+          [href^="http://"] {
+            background: url('img/external.png') 100% 50% no-repeat;
+            padding-right: 15px;
+        }
+
+        /* атрибут href заканчивается значением pdf */
+        [href$=".pdf"] {
+            background: url('img/pdf.png') 100% 50% no-repeat;
+            padding-right: 20px;
+        }
+
+        /* атрибут href содержит значение twitter */
+        [href*="twitter"] {
+            background: url('img/twitter.png') 100% 50% no-repeat;
+            padding-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <a href="http://google.com">Search</a>
+    <br />
+    <a href="http://twitter.com/profile">Some Twitter User</a>
+    <br />
+    <a href="/resources/test.pdf">Manual</a>
+    <br />
+</body>
+</html>

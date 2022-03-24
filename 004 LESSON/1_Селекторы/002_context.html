@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        /* Контекстные селекторы позволяют задавать стили элемента находящимся в определенном контексте. */
+        .red a {
+            color: red;
+        }
+
+        div p span { 
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <pre>
+            <p> 
+                <a href="">
+                 <span>hello</span>
+                </a>
+            </p>
+        </pre>
+
+    </div>
+
+    <p>
+        Параграф в теге BODY.
+    </p>
+    <div class="red">
+        <p>Параграф в теге DIV.</p>
+        <ul>
+            <li><a href="tel:+380">0800500000000</a></li>
+            <li><a href="skype:login">Link 2</a></li>
+            <li><a href="mailto:email@com">Link 3</a></li>
+            <li><a href="viber:+380937662900">Link 4</a></li>
+        </ul>
+    </div>
+    <a href="#">Link in body.</a>
+</body>
+
+</html>

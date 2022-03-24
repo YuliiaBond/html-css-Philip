@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+        div:hover{
+            background-color:aqua;
+            transition: all 0.5s;
+        }
+        div:hover::after{
+            content: ' ';
+            display: block;
+            width: 10px;
+            height: 10px;
+            background-color:red;
+            border-radius: 50%;
+            margin: auto;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- Создайте блок 100 на 100 пискселей и сделайте так чтобы при наведении он 
+    менял свой фоновый цвет и имел маркер как у списка ul -->
+    <div>
+
+    </div>
+</body>
+</html>
