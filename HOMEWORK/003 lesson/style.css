@@ -4,6 +4,8 @@ body {
   font-family: 'Montserrat',
   sans-serif;
   padding: 15px;
+  
+  
 
 }
 a {
@@ -13,7 +15,7 @@ a {
 /* HEADER */
 
 .container {
-  max-width: 1157px;
+  width: 1160px;
 }
 .logo {
   /* text-decoration: none; */
@@ -57,4 +59,67 @@ hr {
   border: 1px solid #272727;
 }
 
-/* MAIN */
+/* TABLE */
+.title {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 37px;
+  padding-top: 91px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 1100px;
+  border-collapse: collapse;
+  
+}
+
+tbody {
+  border-left: 1px solid #272727;
+  border-right: 1px solid #272727;
+}
+
+th {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #727272;
+  padding-bottom: 17px;
+  text-align: left;
+  
+}
+
+td {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 17px;
+  border-top: 1px solid #272727;
+  border-bottom: 1px solid #272727;
+}
+
+/* PAGINATION */
+.pagination {
+  list-style: none;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  
+}
+.pagination li {
+  margin-right: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+li.active {
+  color: #4F4F4F;
+}
+li.prev {
+  color: #272727;
+}
+li.next {
+  color: white;
+}
