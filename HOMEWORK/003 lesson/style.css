@@ -1,3 +1,60 @@
-/* body {
+body {
   background-color: black;
-} */
+  color: white;
+  font-family: 'Montserrat',
+  sans-serif;
+  padding: 15px;
+
+}
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.container {
+  max-width: 1157px;
+}
+.logo {
+  /* text-decoration: none; */
+  color: #1ACD4C;
+  font-family: 'Caveat',
+  cursive;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 30px;
+  margin-right: 25px;
+}
+.numcard{
+  font-size: 16px;
+  margin-right: 95px;
+}
+.menu {
+  list-style: none;
+  display: inline-flex;
+  
+}
+.menu > li {
+  margin-right: 15px;
+}
+.menu a {
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+text-transform: uppercase;
+color: white;
+
+}
+li .active {
+  color: #272727;
+}
+.navigation {
+  display: inline-flex;
+}
+
+hr {
+  border: 1px solid #272727;
+}
+
+/* MAIN */
