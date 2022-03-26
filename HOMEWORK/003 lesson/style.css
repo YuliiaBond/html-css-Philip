@@ -1,9 +1,10 @@
 body {
-  background-color: black;
+  background-color: #131313;
   color: white;
   font-family: 'Montserrat',
   sans-serif;
   padding: 15px;
+  margin: 0;
   
   
 
@@ -13,10 +14,16 @@ a {
 }
 
 /* HEADER */
+header {
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #272727;
 
-.container {
-  width: 1160px;
 }
+
+/* .container {
+  width: 1160px;
+} */
 .logo {
   /* text-decoration: none; */
   color: #1ACD4C;
@@ -55,11 +62,12 @@ li .active {
   display: inline-flex;
 }
 
-hr {
-  border: 1px solid #272727;
-}
 
 /* TABLE */
+main {
+  width: 80%;
+  margin: 0 auto;
+}
 .title {
   font-weight: 900;
   font-size: 30px;
