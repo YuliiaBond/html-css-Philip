@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background-color: #201636;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+
+.hero {
+  /* width: 1229px; */
+  background-image: url(./img/hero.png);
+}
+
+.main {
+  background-image: url(./img/bg2.png);
+}
+
+.section {
+  background-image: url(./img/Знак\ вопроса.png);
+  background-repeat: no-repeat;
+}
