@@ -8,15 +8,32 @@ ul {
   list-style: none;
 }
 
+/* HERO */
 .hero {
   /* width: 1229px; */
+  min-height: 831px;
   background-image: url(./img/hero.png);
+  background-repeat: no-repeat;
+  margin-top: 238px;
+}
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding-top: 193px;
+  text-align: right;
+  
+
 }
 
+/* MAIN */
 .main {
   background-image: url(./img/bg2.png);
 }
 
+/* SECTION */
 .section {
   background-image: url(./img/Знак\ вопроса.png);
   background-repeat: no-repeat;
