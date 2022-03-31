@@ -1,0 +1,15 @@
+body{
+  margin: 0 auto;
+}
+header {
+  background-image: url(./img/Rectangle.png);
+  height: 740px;
+  width: 1920px;
+}
+
+footer {
+  height: 181px;
+  background-color: #F7654A;
+
+;
+}
