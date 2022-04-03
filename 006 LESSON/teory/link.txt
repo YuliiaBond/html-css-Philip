@@ -1,0 +1,3 @@
+https://html5book.ru/html5-semantic-elements/ справочник
+https://caniuse.com проверка тега в браузерах
+https://fontawesome.com библиотека иконок
